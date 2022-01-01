@@ -1,0 +1,22 @@
+<label for="text-input">Scrape URL:</label><br>
+<input class="input" id="text-input" type="text" /><br>
+<label for="textarea">Result</label><br>
+<textarea class="input bigbox" id="textarea1"></textarea>
+<br>
+<label>Options:</label><br>
+<ul><li>
+<input type="checkbox" id="command1" name="command1"><label for="command1">Alphabetize</label>
+<input type="checkbox" id="command2" name="command2"><label for="command2">Hide</label>
+<input type="checkbox" id="command3" name="command3"><label for="command3" class='striker'>Strikethrough</label>
+<input type="checkbox" id="command4" name="command4"><label for="command4">Remove Duplicates</label>
+</li></ul>
+<br>
+<label for="textarea2">Ignore:</label><br>
+<textarea class="input smallbox" id="textarea2"></textarea>
+<br>
+<label for="textarea3">Liked words:</label><br>
+<textarea class="input smallbox" id="textarea3"></textarea>
+<br>
+<label for="textarea4">Disliked words:</label><br>
+<textarea class="input smallbox" id="textarea4"></textarea>
+<div id="result"></div>
